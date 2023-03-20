@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login & Register</title>
+</head>
+<body>
+   
+    <div id="form-container">
+        <div id="forms">
+            <div class="form form-sign-in">
+                <h1 class="form-title">Sign in</h1>
+                <div class="form-options">
+                    <a class="form-option" href="http://facebook.com">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="form-option" href="http://gmail.com">
+                           <ion-icon name="logo-google"></ion-icon> 
+                    </a>
+                    <a class="form-option" href="https://mm.linkedin.com/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                     </a>
+                </div>
+                <div class="form-input">
+                    <h5>or use your account</h5>
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password"  name="pswd" placeholder="Password">
+                    <a class="forgot-password" href="#">Forgot your password?</a>
+                </div>
+                <button class="form-button" id="form-sign-in-btn">SIGN IN</button>
+            </div>
+            <div class="form form-sign-up">
+                <h1 class="form-title">Create account</h1>
+                <div class="form-options">
+                    <a class="form-option" href="http://facebook.com">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a class="form-option" href="http://gmail.com">
+                        <ion-icon name="logo-google"></ion-icon> 
+                    </a>
+                    <a class="form-option" href="https://mm.linkedin.com/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                     </a>
+                </div>
+                <div class="form-input">
+                    <h5>or use your email for registration</h5>
+                    <input type="text" name="txt" placeholder="Name" required="">
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password"  name="pswd" placeholder="Password" required="">
+                </div>
+                <button class="form-button">SIGN UP</button>
+            </div>                
+            </div>
+            <div id="overlay-container">
+                <div id="overlay">
+                    <div class="overlay-panel overlay-1">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us please login with your personal information</p>
+                        <button class="overlay-btn" id="overlay-sign-in-btn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-2">
+                        <h1>Hello, Friend!</h1>
+                        <p>Enter your personal details and start with us</p>
+                        <button class="overlay-btn" id="overlay-sign-up-btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+<a id="source" target="_blank" title="source challenge" href="https://codepen.io/FlorinPop17/pen/vPKWjd"><i class="fa fa-heart"></i></a>
+</body>
+</html>
